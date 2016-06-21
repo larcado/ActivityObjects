@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         objectList.add(new MyOwnObject("cool objects", 3));
         objectList.add(new MyOwnObject("cool objects 2", 7));
 
-        ActivityObjects.passObjectsToActivity(this, SecondActivity.class, objectList);
+        Intent intent = ActivityObjects.passObjectsToActivity(this, SecondActivity.class, objectList);
+		startActivity(intent);
     }
 }
