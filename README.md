@@ -2,6 +2,8 @@
 
 ActivityObjects is a Android library to simply pass Java-Objects from one Activity to another
 
+All passed Objects are integrated in Android Lifecyle automatically (explained below)
+
 ## In general:
 We will create Activitys by AbstractActivityObjects instead by AppCompatAcvtivity
 ```java
